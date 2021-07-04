@@ -3,5 +3,7 @@ html {
     background-image: url(fire.gif);
     background-repeat: repeat-x;
     background-attachment: fixed;
-    background-position: bottom center; 
+    background-position: bottom center;
+    color: white;
+    font-family: sans-serif;
 }
