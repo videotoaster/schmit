@@ -1,5 +1,7 @@
 body {
+    background: black;
     background-image: url(fire.gif);
-    background-position: left bottom;
     background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: bottom center; 
 }
