@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>shmitee</title>
+  <link rel="stylesheet" href="schmit.css">
+  <script>
+   window.onload = function(){
+    var rquote = document.getElementsByTagName("randomquote");
+    for (var i=0; i<rquote.length; i++) {
+      quotes = [
+        "If you're Buzz, fuck off.",
+        "Go away.",
+        "You have ONE (1) new message! It says 'fuck you'.",
+        "who what when where how why",
+        "www.schmittyhasabig.co.ck",
+        "The 'undisputed' king of hosting trivia shows, <i>probably</i>"
+      ];
+      rquote[i].innerHTML = quotes[Math.floor(Math.random()*quotes.length)];
+    }
+   }
+  </script>
+ </head>
+ <body>
+  <center>
+   <img src="schmit.gif" alt="SCHMITTY">
+   <p><randomquote>You don't have JavaScript on, Mr. Privacy.<br/>What are you hiding? Who from?<br/>I think you're just paranoid...</randomquote></p>
+  </center>
